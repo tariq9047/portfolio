@@ -1,0 +1,113 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F8F9F9;
+}
+
+.main p {
+    color: #1C2833;
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+}
+
+footer,
+body,
+header {
+    background-color: #2E86C1;
+}
+
+.thumbnail {
+    vertical-align: middle;
+    border-color: blue;
+}
+
+.nav-pills li a {
+    color: white;
+}
+
+.nav-pills li a:hover {
+    color: #2E86C1;
+}
+
+.active a {
+    color: #F8F9F9;
+}
+
+ul {
+    color: white;
+}
+
+.DHS {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 17px;
+}
+
+.color {
+    background-color: #AED6F1;
+}
+
+.time {
+    display: none;
+    position: inherit;
+    text-align: center;
+    background-color: #D0D3D4;
+    color: #2E86C1;
+    font-size: 14px;
+}
+
+a:hover .time {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    color: #2E86C1;
+}
+
+.yo {
+    width: 27px;
+    height: 27px;
+}
+
+.class {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.class:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.ima {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+
+ 
